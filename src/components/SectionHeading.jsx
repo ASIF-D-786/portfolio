@@ -14,7 +14,6 @@ export default function SectionHeading({ tag, title, description, align = 'left'
       viewport={viewportOnce}
       className={`mb-14 max-w-2xl ${align === 'center' ? 'mx-auto text-center' : ''}`}
     >
-      <p className="eyebrow">// {tag}</p>
       <h2 className="section-title">{title}</h2>
       {description && (
         <p className="text-ink-muted text-base leading-relaxed">{description}</p>
