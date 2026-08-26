@@ -10,8 +10,8 @@ export const profile = {
   roles: ['AI Engineer', 'Software Developer', 'Full Stack Developer'],
   tagline:
     'I build intelligent systems and full-stack products — from computer vision pipelines to production-ready web apps.',
-  location: 'Gujarat, India',
-  email: 'asifbbadudekula@gmail.com',
+  location: 'Hyderabad, India',
+  email: 'asifbabadudekula@gmail.com',
   mobile: '+91 8143145985',
   resumeUrl: 'https://drive.google.com/file/d/1kCvODkQOmvznbE7dm4N7MBaA3LT84o1i/view?usp=drive_link',
   social: {
@@ -22,10 +22,10 @@ export const profile = {
 }
 
 export const aboutStats = [
-  { label: 'Projects Completed', value: 3, suffix: '' },
+  { label: 'Projects Completed', value: 4, suffix: '' },
   { label: 'Technologies', value: 20, suffix: '+' },
   { label: 'Certifications', value: 1, suffix: '' },
-  { label: 'LeetCode Problems', value: 100, suffix: '+' },
+  { label: 'LeetCode Problems', value: 120, suffix: '' },
 ]
 
 export const aboutParagraphs = [
@@ -69,6 +69,17 @@ export const skillCategories = [
 
 export const projects = [
   {
+    id: 'logicortex-ai',
+    title: 'LOGICORTEX AI — Global Logistics & Supply Chain Platform',
+    description:
+      'An AI-powered logistics resilience and execution platform that transforms traditional supply-chain operations into predictive, adaptive, and continuously learning networks. Features the LOGICORTEX ACO engine for critical-path scheduling, real-time disruption recovery, what-if analysis, and performance benchmarking across Admin, Supplier, and Driver interfaces.',
+    tech: ['AI', 'Supply Chain', 'Scheduling Optimization', 'React', 'Spring Boot', 'Python'],
+    github: 'https://github.com/ASIF-D-786/LOGICORTEX-AI-GLOBAL-LOGISTICS-SUPPLY-CHAIN-ENVIRONMENT',
+    demo: '',
+    image: null,
+    featured: true,
+  },
+  {
     id: 'skillforge-ai',
     title: 'SkillForge AI',
     description:
@@ -105,22 +116,8 @@ export const projects = [
 
 export const experience = [
   {
-    company: 'Handshake AI',
-    role: 'AI Contributor / Task Developer',
-    period: '2026 — Present',
-    points: [
-      'Created and validated high-quality AI training and evaluation tasks.',
-      'Developed programming and software engineering tasks.',
-      'Reviewed AI-generated responses for correctness and quality.',
-      'Worked with Git, GitHub, Markdown, JSON, Python, and Java.',
-      'Followed structured AI task creation workflows.',
-      'Contributed toward improving AI reasoning and coding capabilities.',
-    ],
-    tech: ['Git', 'GitHub', 'Python', 'Java', 'Markdown', 'JSON']
-  },
-  {
     company: 'Deccan AI Experts',
-    role: 'AI Intern',
+    role: 'AI Contributor',
     period: '2026 — Present',
     points: [
       'Worked on AI and machine learning projects.',
@@ -162,9 +159,9 @@ export const certifications = [
 ]
 
 export const achievements = [
-  { label: 'LeetCode Problems Solved', value: 100, suffix: '+' },
-  { label: 'Projects Completed', value: 3, suffix: '' },
-  { label: 'Hackathons Participated', value: 3, suffix: '' },
+  { label: 'LeetCode Problems Solved', value: 120, suffix: '' },
+  { label: 'Projects Completed', value: 4, suffix: '' },
+  { label: 'Hackathons Participated', value: 4, suffix: '' },
   { label: 'GitHub Repositories', value: 5, suffix: '' },
 ]
 

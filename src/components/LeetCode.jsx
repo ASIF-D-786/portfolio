@@ -7,10 +7,10 @@ import { fadeUp, staggerContainer, viewportOnce } from '../utils/animations.js'
 // Uses the public leetcode-stats-api (https://github.com/JeremyTsaii/leetcode-stats-api).
 // If the API is unreachable, falls back to placeholder numbers so the layout never breaks.
 const FALLBACK = {
-  totalSolved: 100,
-  easySolved: 45,
-  mediumSolved: 42,
-  hardSolved: 13,
+  totalSolved: 120,
+  easySolved: 67,
+  mediumSolved: 46,
+  hardSolved: 7,
 }
 
 export default function LeetCode() {
