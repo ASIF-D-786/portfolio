@@ -22,7 +22,7 @@ export const profile = {
 }
 
 export const aboutStats = [
-  { label: 'Projects Completed', value: 3, suffix: '' },
+  { label: 'Projects Completed', value: 4, suffix: '' },
   { label: 'Technologies', value: 20, suffix: '+' },
   { label: 'Certifications', value: 1, suffix: '' },
   { label: 'LeetCode Problems', value: 100, suffix: '+' },
@@ -68,6 +68,18 @@ export const skillCategories = [
 ]
 
 export const projects = [
+  {
+    id: 'logicortex-ai',
+    title: 'LOGICORTEX AI — Global Logistics & Supply Chain Platform',
+    description:
+      'AI-powered logistics resilience platform whose Autonomous Critical-Path Optimizer engine detects scheduling bottlenecks, parallelizes independent operations, and re-optimizes shipment, driver, and vehicle schedules. Includes what-if disruption simulation, explainable scheduling decisions, and baseline vs optimized benchmarking.',
+    tech: ['React', 'TypeScript', 'Node.js', 'AI Optimization', 'Simulation'],
+    github:
+      'https://github.com/ASIF-D-786/LOGICORTEX-AI-GLOBAL-LOGISTICS-SUPPLY-CHAIN-ENVIRONMENT',
+    demo: '',
+    image: null,
+    featured: true,
+  },
   {
     id: 'skillforge-ai',
     title: 'SkillForge AI',
@@ -163,9 +175,9 @@ export const certifications = [
 
 export const achievements = [
   { label: 'LeetCode Problems Solved', value: 100, suffix: '+' },
-  { label: 'Projects Completed', value: 3, suffix: '' },
+  { label: 'Projects Completed', value: 4, suffix: '' },
   { label: 'Hackathons Participated', value: 3, suffix: '' },
-  { label: 'GitHub Repositories', value: 5, suffix: '' },
+  { label: 'GitHub Repositories', value: 6, suffix: '' },
 ]
 
 export const githubUsername = 'ASIF-D-786'
